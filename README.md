@@ -1,4 +1,5 @@
 # FMForRating
 使用pytorch框架实现FM对用户电影的评分预测
-使用的数据集为：movielen数据集中的ratingw文件，该文件中包含四个字段：userId,movieId,rating,timestamp。使用前三个字段进行模型的学习训练
+使用的数据集为：movielen数据集中的ratingw文件，该文件中包含四个字段：userId,movieId,rating,timestamp。使用前三个字段进行模型的学习训练。
+
 在使用pytorch进行训练之前，需要对数据进行预处理，将数据集分为训练集与测试集，训练集与测试集的比例为8:2
