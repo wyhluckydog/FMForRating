@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="user01@10.108.218.191:22">
+    <serverData>
+      <paths name="815_server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="wyh" local="$PROJECT_DIR$" web="http://10.108.218.191" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="user01@10.108.218.191:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/FMForRating" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
