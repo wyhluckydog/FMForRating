@@ -1,0 +1,2 @@
+# FMForRating
+使用pytorch框架实现FM对用户电影的评分预测
