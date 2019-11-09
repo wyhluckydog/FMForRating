@@ -1,0 +1,9 @@
+# FMForRating
+使用pytorch框架实现FM对用户电影的评分预测
+
+使用的数据集是movielen，FM主要是对rating.csv文件中的评分进行预测。将数据集按照8:2的比例分为训练集与测试集。
+
+进行数据预处理以及数据划分的代码在divideData.py文件中，划分之后得到rating_train.csv与rating_test.csv两个文件。
+
+simple_model.py文件是读取训练集以及测试集，并使用pytorch框架编写FM训练模型，最后使用rmse作为评价指标，使用测试集对模型进行测试，测试得到rmse最终结果为1.4。
+可以看大rmse相对较小，可以认为达到了较好的预测水平。
